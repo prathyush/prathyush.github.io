@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog</title>
+    <description>A jekyll theme. Because I scribble.</description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>init</title>
+        <description>&lt;p&gt;Figured github is ready to host a blog and I can ditch wordpress for my static page websites :).&lt;/p&gt;
+
+&lt;p&gt;For now I&amp;rsquo;ve started using the Scribble theme from here: &lt;a href=&quot;http://github.com/muan/scribble&quot;&gt;http://github.com/muan/scribble&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Aug 2014 17:19:15 +0530</pubDate>
+        <link>/2014/08/10/first/</link>
+        <guid isPermaLink="true">/2014/08/10/first/</guid>
+      </item>
+    
+  </channel>
+</rss>
