@@ -1,23 +1,24 @@
-title:            Blog
-description:      A jekyll theme. Because I scribble.
-url:              # Site url.
-signoff:          Prathyush Thota
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
-
-links:
-  - name:         About
-    url:          /about
-  - name:         Email
-    url:          mailto:prathyushthota@gmail.com
-    external:     true
-  - name:         GitHub
-    url:          http://github.com/prathyush
-    external:     true
-highlighter:      pygments
-permalink:        pretty
+# Dependencies
 markdown:         redcarpet
-redcarpet:
-  extensions:
-    - smart
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Blog.
+tagline:          '- Prathyush Thota'
+description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://lanyon.getpoole.com
+baseurl:          '/'
+paginate:         5
+
+author:
+  name:           'Prathyush Thota'
+  url:            https://twitter.com/prathyush
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/prathyush
